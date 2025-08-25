@@ -6,12 +6,27 @@
   "publisher": "Miguet2209",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Miguet2209/purple_vscode_theme"
   },
   "keywords": [
     "theme",
     "color-theme",
     "purple",
     "dark"
-  ]
+  ],
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Tone Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Purple Tone Theme-color-theme.json" 
+      }
+      ]
+    }
 }
