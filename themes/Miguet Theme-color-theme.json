@@ -1,5 +1,5 @@
 {
-  "name": "Purple Tone Theme",
+  "name": "purple-tone-theme",
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "colors": {
