@@ -23,7 +23,7 @@
     "dropdown.background": "#000000",
     "dropdown.border": "#FFFFFF10",
     "editor.background": "#171717",
-    "editor.findMatchBackground": "#0C0C0C",
+  "editor.findMatchBackground": "#0C0C0C",
     "editor.findMatchBorder": "#6048A8",
     "editor.findMatchHighlightBackground": "#6048A893",
     "editor.findMatchHighlightBorder": "#FFFFFF30",
@@ -43,8 +43,8 @@
     "editorGutter.modifiedBackground": "#A890F060",
     "editorHoverWidget.background": "#0C0C0C",
     "editorHoverWidget.border": "#FFFFFF10",
-    "editorIndentGuide.activeBackground": "#181830",
-    "editorIndentGuide.background": "#18183070",
+    "editorIndentGuide.activeBackground1": "#181830",
+    "editorIndentGuide.background1": "#18183070",
     "editorInfo.foreground": "#A890F070",
     "editorLineNumber.activeForeground": "#A890F0",
     "editorLineNumber.foreground": "#6048A8c0",
@@ -52,7 +52,7 @@
     "editorMarkerNavigation.background": "#F0F0FF05",
     "editorOverviewRuler.border": "#0C0C0C",
     "editorOverviewRuler.errorForeground": "#78184840",
-    "editorOverviewRuler.findMatchForeground": "#6048A8",
+    "editorOverviewRuler.findMatchForeground": "#6048A880",
     "editorOverviewRuler.infoForeground": "#A890F040",
     "editorOverviewRuler.warningForeground": "#6666FF70",
     "editorRuler.foreground": "#181830",
@@ -224,6 +224,15 @@
         "string.quoted.template"
       ],
       "settings": { "foreground": "#930dc3" }
+    },
+    {
+      // R numeric floats + Python decimal numerics
+      "scope": [
+        "constant.numeric.float.decimal.r",
+        "constant.numeric.float.python", 
+        "constant.numeric.dec.python"
+      ],
+      "settings": { "foreground": "#0467D6" }
     },
     {
       "scope": [
