@@ -1,0 +1,17 @@
+{
+  "name": "Purple Tone Theme",
+  "displayName": "Purple Tone Theme",
+  "description": "Theme with a purple color palette.",
+  "version": "1.0.0",
+  "publisher": "Miguet2209",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "purple",
+    "dark"
+  ]
+}
