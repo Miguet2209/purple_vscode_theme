@@ -281,6 +281,8 @@
     "support.function.scalar.sql",
 	"keyword.other.sql",
 	"keyword.other.LUW.sql",       // SELECT, FROM, WHERE, JOIN, GROUP, ORDER
+  "keyword.other.alias.sql"
+        
 
       ],
       "settings": { "foreground": "#A890F0", "fontStyle": "bold" }
