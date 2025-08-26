@@ -277,6 +277,8 @@
     "keyword.other.DDL.sql",    // CREATE, ALTER, DROP
     "keyword.other.TCL.sql",    // COMMIT, ROLLBACK
     "keyword.control.sql",
+    "support.function.aggregate.sql",
+    "support.function.scalar.sql",
 	"keyword.other.sql",
 	"keyword.other.LUW.sql",       // SELECT, FROM, WHERE, JOIN, GROUP, ORDER
 
