@@ -229,8 +229,10 @@
       // R numeric floats + Python decimal numerics
       "scope": [
         "constant.numeric.float.decimal.r",
-        "constant.numeric.float.python", 
-        "constant.numeric.dec.python"
+        "constant.numeric.float.python",
+        "constant.numeric.dec.python",
+        "constant.language.python",
+        "constant.language.r"
       ],
       "settings": { "foreground": "#0467D6" }
     },
@@ -282,7 +284,7 @@
 	"keyword.other.sql",
 	"keyword.other.LUW.sql",       // SELECT, FROM, WHERE, JOIN, GROUP, ORDER
   "keyword.other.alias.sql"
-        
+
 
       ],
       "settings": { "foreground": "#A890F0", "fontStyle": "bold" }
